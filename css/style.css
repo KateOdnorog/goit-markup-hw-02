@@ -2,6 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -95,7 +96,7 @@ button {
 .header-menu-link:focus,
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #4048bf;
+  color: #404bbf;
 }
 
 /* _______________________________________________________ */
@@ -120,10 +121,11 @@ button {
 .features-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 /* ___________HERO___________ */
@@ -153,7 +155,7 @@ button {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #4048bf;
+  background-color: #404bbf;
 }
 
 /* ________________ */
@@ -179,16 +181,18 @@ button {
 
 /* ___________SECTION TEAM___________ */
 
-.features-team-title {
+.features-team {
+  background-color: #f4f4fd;
 }
 
-.features-team {
+.features-team-title {
 }
 
 .features-team-list {
 }
 
 .features-team-item {
+  background-color: #ffffff;
 }
 
 .features-team-item-image {
@@ -236,9 +240,6 @@ button {
   background-color: #2e2f42;
 }
 
-.footer-navigatore {
-}
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -262,6 +263,6 @@ button {
 
 .footer-logo:hover,
 .footer-logo:focus {
-  color: #4048bf;
+  color: #404bbf;
 }
 /* _______________________________________________________ */
